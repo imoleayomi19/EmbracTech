@@ -48,12 +48,13 @@ export function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-white/95 backdrop-blur-sm py-5'}`}>
       
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group">
+        {/* <Link to="/" className="flex items-center gap-2 group">
           <Sun className="w-8 h-8 text-secondary transition-transform duration-500 group-hover:rotate-90" />
           <span className="font-anton text-2xl text-primary tracking-wider mt-1">
             EMBRACE
           </span>
-        </Link>
+        </Link> */}
+        <img src="/Embrace .JPG.jpeg" alt="Embrace Logo" className="w-10 h-10 rounded-full" />
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-7">
