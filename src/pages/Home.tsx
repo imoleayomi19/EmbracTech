@@ -258,7 +258,6 @@ export function Home() {
                 <img
                 src={org.src}
                 alt={`${org.name} logo`}
-                title={`${org.name} logo`}
                 className="max-h-full max-w-full object-contain" />
               
               </motion.div>
@@ -324,7 +323,6 @@ export function Home() {
                   <img
                   src={service.img}
                   alt={service.title}
-                  title={service.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 
                   <div className="absolute top-4 left-4 z-20 bg-white p-3 rounded-full shadow-md">
